@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "rxjs-directivas:build:production"
+              "buildTarget": "rxjs-directivas:build:production"
             },
             "development": {
-              "browserTarget": "rxjs-directivas:build:development"
+              "buildTarget": "rxjs-directivas:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "rxjs-directivas:build"
+            "buildTarget": "rxjs-directivas:build"
           }
         },
         "test": {
